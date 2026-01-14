@@ -10,7 +10,7 @@ const LoginPage = () => {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: 'https://promptworldorg.netlify.app//dashboard'
+        redirectTo: 'https://promptworldorg.netlify.app/dashboard'
       }
     })
     
