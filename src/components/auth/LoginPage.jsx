@@ -3,7 +3,7 @@ import logo from '../assets/logo3.jpg'
 import google from '../assets/google icon.png'
 import { MoveRight, Shield, Copyright } from 'lucide-react'
 import { supabase } from '../../supabase'
-
+ 
 const LoginPage = () => {
 
   const handleGoogleLogin = async () => {
